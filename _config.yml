@@ -1,1 +1,2 @@
-theme: jekyll-theme-midnight
+name: Limz
+permalink: /blog/:year/:month/:day/:title
