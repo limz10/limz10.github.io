@@ -1,28 +1,50 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-        <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/main.css">
-    </head>
-    <body>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </ul>
-        </nav>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.name }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="{{ site.description }}">
+ 
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px;
+      }
+    </style>
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
+ 
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+ 
+  <body>
+ 
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
         <div class="container">
-        
-        {{ content }}
-        
-        </div><!-- /.container -->
-        <footer>
-            <ul>
-                <li><a href="mailto:limz.li.10@gmail.com">email</a></li>
-                <li><a href="https://github.com/limz10">github.com/limz10</a></li>
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">{{ site.name }}</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="/">Home</a></li>
             </ul>
-        </footer>
-    </body>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="container">
+ 
+      {{ content }}
+ 
+    </div>
+ 
+  </body>
 </html>
