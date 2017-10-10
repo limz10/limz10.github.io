@@ -53,18 +53,17 @@ avatar: "/img/avatar-icon.png"
 author:
   name: limz
   email: "limz.li.10@gmail.com"
-  facebook: yourname  # eg. daattali
-  github: limz10    # eg. daattali
-  twitter: limz10   # eg. daattali
-  linkedin: yourname  # eg. daattali
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
+  facebook: yourname  
+  github: limz10    
+  twitter: limzli   
+  linkedin: yourname  
+  snapchat: yourname  
+  instagram: yourname 
   youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
-  steam: yourname     # eg. daattali
-  twitch: yourname    # eg. daattali
-  yelp: yourname      # eg. daattali
+  spotify: yourname   
+  steam: yourname     
+  twitch: yourname    
+  yelp: yourname      
 
 # Select which links to show in the footer
 footer-links-active:
@@ -78,7 +77,6 @@ footer-links-active:
   instagram: false
   youtube: false
   spotify: false
-  telephone: false
   steam: false
   twitch: false
   yelp: false
